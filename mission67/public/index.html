@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MISSION 67</title>
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<div id="vg"></div>
+<div id="hud" class="hide">
+ <div id="top"><div id="cn" style="font-size:13px;letter-spacing:.15em;margin-bottom:4px"></div><div id="bar"><div id="hp"></div></div><div id="hpt"></div></div>
+ <div id="obj"></div>
+ <canvas id="cmp" width="520" height="50"></canvas>
+ <div id="prompt" class="hide"></div>
+ <div id="hint"></div><div id="team"></div><div id="down" class="hide"></div>
+ <div id="ammo"><b id="am">30</b><span> / ∞</span><small id="gn"></small><div id="rb"><i id="rbi"></i></div></div>
+ <div id="sk"></div>
+ <div id="xh"><i class="t"></i><i class="b"></i><i class="l"></i><i class="r"></i><u></u><div id="hm"></div></div>
+ <div id="spd" class="fxl"></div><div id="shd" class="fxl"></div><div id="rg" class="fxl"></div>
+ <div id="fl" class="fxl"></div>
+ <div class="rr"></div><div class="rr"></div><div class="rr"></div>
+ <svg id="claw" viewBox="0 0 100 100" preserveAspectRatio="none"><path pathLength="1" d="M8 -6 Q 34 40 52 108"/><path pathLength="1" d="M30 -8 Q 56 42 76 108"/><path pathLength="1" d="M52 -8 Q 76 40 98 106"/></svg>
+ <div class="jaw" id="jt"></div><div class="jaw" id="jb"></div>
+ <div id="dd"><i></i></div>
+</div>
+<div id="pause" class="hide"><div><span data-i="pause"></span><br><small style="color:#8a8478;font-size:12px;letter-spacing:.1em" data-i="pause2"></small></div></div>
+<div id="mg" class="hide"><div id="mgp"><div id="mgt"></div><div id="mgh"></div><div id="mgb"></div><button id="mgx" data-i="cancel"></button></div></div>
+
+<div id="menu" class="ov">
+<button id="lang">VI | EN</button>
+<img id="logo" alt="G.A.O." src="img/logo.jpg">
+<h1>MISSION 67</h1><div class="sub" data-i="sub"></div>
+<div class="row" id="modes"><button class="tab on" id="tabSolo" data-i="solo"></button><button class="tab" id="tabMp" data-i="mp"></button></div>
+<div id="mpbox" class="hide"><div id="lobbybox">
+ <div class="row" id="joinrow"><input type="text" id="pname" maxlength="12" data-ph="mp_name" value="Player"><input type="text" id="proom" maxlength="8" data-ph="mp_room" value="M67"><button id="pjoin" data-i="mp_join"></button></div>
+ <div id="inroom" class="hide"><div class="sub" id="roominfo"></div><div id="plist"></div><div class="sub" data-i="mp_hint"></div><button class="tab" id="pleave" data-i="mp_leave"></button></div>
+ <div id="err"></div></div></div>
+<div class="row"><span class="sub" data-i="level"></span><span id="levels" class="row"></span></div>
+<div class="cards" id="cards"></div>
+<button id="go" data-i="go"></button>
+<div class="sub" data-i="help"></div><div class="sub" data-i="mission"></div>
+</div>
+<div id="end" class="ov hide"><h1 id="et"></h1><div class="sub" id="es"></div><button id="re" data-i="lobby"></button></div>
+
+<script src="lib/three.min.js" onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'"></script>
+<script type="module" src="js/main.js"></script>
+</body></html>

@@ -1,0 +1,11 @@
+{
+  "classes": [
+    "aberrant.js",
+    "chimera.js",
+    "iron.js"
+  ],
+  "levels": [
+    "city.js",
+    "suburb.js"
+  ]
+}

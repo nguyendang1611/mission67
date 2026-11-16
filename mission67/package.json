@@ -1,0 +1,12 @@
+{
+  "name": "mission67",
+  "version": "2.0.0",
+  "description": "MISSION 67 - FPS co-op (tối đa 3 người) chạy trên trình duyệt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "manifest": "node tools/make-manifest.js"
+  },
+  "engines": { "node": ">=16" },
+  "license": "MIT"
+}
